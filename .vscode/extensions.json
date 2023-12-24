@@ -16,6 +16,7 @@
     "eamodio.gitlens",
     "davidanson.vscode-markdownlint",
     "quicktype.quicktype",
-    "christian-kohler.path-intellisense"
+    "christian-kohler.path-intellisense",
+    "ms-dotnettools.dotnet-maui"
   ]
 }
