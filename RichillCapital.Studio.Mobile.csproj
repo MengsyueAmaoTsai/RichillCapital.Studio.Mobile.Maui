@@ -1,5 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-    <Import Project="./Solution.Build.props"/>
+    <Import Project="./Solution.Build.props" />
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
@@ -26,6 +26,15 @@
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 		<MauiFont Include="Resources\Fonts\*" />
 		<MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Remove=".gitignore" />
+	  <None Remove="LICENSE" />
+	  <None Remove="README.md" />
+	  <None Remove="Solution.Build.props" />
+	  <None Remove="Solution.ruleset" />
+	  <None Remove="Solution.Tests.props" />
 	</ItemGroup>
 
 	<ItemGroup>
