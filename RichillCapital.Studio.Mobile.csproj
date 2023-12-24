@@ -8,7 +8,7 @@
 		<SingleProject>true</SingleProject>
 
 		<TargetFrameworks>net8.0-android;</TargetFrameworks>
-		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">12.0</SupportedOSPlatformVersion>
+		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
         <!-- Specify AndroidManifest.xml location -->
         <AndroidManifest>Src\Platforms\Android\AndroidManifest.xml</AndroidManifest>
 
